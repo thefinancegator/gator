@@ -8,10 +8,10 @@ import (
 
 	_ "github.com/lib/pq"
 
-	"github.com/pawelwerner/gator/internal/config"
-	"github.com/pawelwerner/gator/internal/database"
-	"github.com/pawelwerner/gator/internal/handlers"
-	"github.com/pawelwerner/gator/internal/middleware"
+	"github.com/thefinancegator/gator/internal/config"
+	"github.com/thefinancegator/gator/internal/database"
+	"github.com/thefinancegator/gator/internal/handlers"
+	"github.com/thefinancegator/gator/internal/middleware"
 )
 
 func main() {

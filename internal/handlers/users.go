@@ -7,7 +7,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/pawelwerner/gator/internal/database"
+	"github.com/thefinancegator/gator/internal/database"
 )
 
 func Login(s *State, cmd Command) error {

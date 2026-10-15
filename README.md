@@ -17,7 +17,7 @@ Several users can share one database. Each user follows their own feeds and sees
 ## Installation
 
 ```sh
-go install github.com/pawelwerner/gator@latest
+go install github.com/thefinancegator/gator@latest
 ```
 
 This builds a `gator` binary in `$(go env GOPATH)/bin` (usually `~/go/bin`). Make sure that directory is on your `PATH`. This command should print the binary's location:
@@ -45,7 +45,7 @@ CREATE DATABASE gator;
 The schema migrations live in this repository under `sql/schema`. Clone the repo and run them with goose:
 
 ```sh
-git clone https://github.com/pawelwerner/gator.git
+git clone https://github.com/thefinancegator/gator.git
 cd gator
 goose -dir sql/schema postgres "postgres://postgres:postgres@localhost:5432/gator?sslmode=disable" up
 ```

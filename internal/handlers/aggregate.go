@@ -12,8 +12,8 @@ import (
 	"github.com/lib/pq"
 	"github.com/lib/pq/pqerror"
 
-	"github.com/pawelwerner/gator/internal/database"
-	"github.com/pawelwerner/gator/internal/requests"
+	"github.com/thefinancegator/gator/internal/database"
+	"github.com/thefinancegator/gator/internal/requests"
 )
 
 var pubDateLayouts = []string{time.RFC1123Z, time.RFC1123, time.RFC3339}

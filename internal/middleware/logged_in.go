@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/pawelwerner/gator/internal/database"
-	"github.com/pawelwerner/gator/internal/handlers"
+	"github.com/thefinancegator/gator/internal/database"
+	"github.com/thefinancegator/gator/internal/handlers"
 )
 
 func LoggedIn(handler func(s *handlers.State, cmd handlers.Command, user database.User) error) handlers.Handler {

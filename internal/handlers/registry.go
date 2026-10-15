@@ -3,8 +3,8 @@ package handlers
 import (
 	"fmt"
 
-	"github.com/pawelwerner/gator/internal/config"
-	"github.com/pawelwerner/gator/internal/database"
+	"github.com/thefinancegator/gator/internal/config"
+	"github.com/thefinancegator/gator/internal/database"
 )
 
 type State struct {

@@ -1,4 +1,4 @@
-module github.com/pawelwerner/gator
+module github.com/thefinancegator/gator
 
 go 1.27.1
 
